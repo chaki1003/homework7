@@ -5,7 +5,7 @@ import org.hibernate.validator.constraints.Length;
 
 public class CreateForm {
     @NotBlank
-    @Length(min = 1, max = 20, message = "20文字以内で入力してください")
+    @Length(min = 1, max = 20, message = "20文字以内で入力してください。")
     private String name;
 
     private String birthday;
